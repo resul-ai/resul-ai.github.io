@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kişisel sayfa — GitHub Pages üzerinde barındırılıyor."
+    />
+    <title>İsim Soyisim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <main class="card">
+      <p class="eyebrow">Merhaba, ben</p>
+      <h1>İsim Soyisim</h1>
+      <p class="lead">
+        Kısa bir cümleyle kendinizi anlatın: ne yapıyorsunuz, neye ilgi
+        duyuyorsunuz, burada ne arıyor ziyaretçiler.
+      </p>
+      <ul class="links" role="list">
+        <li>
+          <a
+            href="https://github.com/KULLANICI_ADIN"
+            rel="me noreferrer noopener"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a href="mailto:eposta@ornek.com">E-posta</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/PROFİL"
+            rel="me noreferrer noopener"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <small>© <span id="yil"></span> — GitHub Pages</small>
+    </footer>
+    <script>
+      document.getElementById("yil").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
