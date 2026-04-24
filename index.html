@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Kişisel sayfa — GitHub Pages üzerinde barındırılıyor."
+      content="Resul Caliskan is a senior data scientist and AI developer focused on LLMs, agentic systems, responsible AI, and pragmatic machine learning solutions."
     />
-    <title>İsim Soyisim</title>
+    <title>Resul Caliskan | AI & Agentic Systems</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,39 +19,60 @@
   <body>
     <div class="noise" aria-hidden="true"></div>
     <main class="card">
-      <p class="eyebrow">Merhaba, ben</p>
-      <h1>İsim Soyisim</h1>
-      <p class="lead">
-        Kısa bir cümleyle kendinizi anlatın: ne yapıyorsunuz, neye ilgi
-        duyuyorsunuz, burada ne arıyor ziyaretçiler.
-      </p>
-      <ul class="links" role="list">
-        <li>
-          <a
-            href="https://github.com/resul-ai"
-            rel="me noreferrer noopener"
-            target="_blank"
-            >GitHub</a
-          >
-        </li>
-        <li>
-          <a href="mailto:eposta@ornek.com">E-posta</a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/PROFİL"
-            rel="me noreferrer noopener"
-            target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Sr. Data Scientist · LLM & Agentic AI Developer</p>
+        <h1 id="page-title">Resul Caliskan</h1>
+        <p class="lead">
+          I build practical AI systems with Python, language models, data, and
+          disciplined engineering. My work lives around LLMs, RAG, NLP,
+          computer vision, MLOps, and healthcare AI.
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="craft-title">
+        <h2 id="craft-title">The Craft</h2>
+        <p>
+          I like code that turns ideas into working instruments. These days,
+          that often means shaping model behavior, designing agent
+          personalities, and giving LLMs the right tools, memory, and guardrails
+          so they can move with purpose instead of noise.
+        </p>
+        <p>
+          There is a quiet art in this work: harnessing powerful models without
+          worshipping them, making small agents useful, and letting systems
+          become more reliable through careful constraints.
+        </p>
+      </section>
+
+      <section class="section principles" aria-labelledby="principles-title">
+        <h2 id="principles-title">Principles</h2>
+        <ul role="list">
+          <li>Support open source and the shared knowledge that moves us forward.</li>
+          <li>Use AI for human benefit, with respect for safety, privacy, and trust.</li>
+          <li>Prefer useful systems over impressive demos.</li>
+          <li>Keep learning, building, and improving the craft.</li>
+        </ul>
+      </section>
+
+      <nav class="links" aria-label="Profile links">
+        <a href="https://github.com/resul-ai" rel="me noreferrer noopener" target="_blank">
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/resul-ai/?locale=en_US"
+          rel="me noreferrer noopener"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a href="mailto:contact@resulcaliskan.com">Email</a>
+      </nav>
     </main>
     <footer class="footer">
-      <small>© <span id="yil"></span> — GitHub Pages</small>
+      <small>© <span id="year"></span> · resulcaliskan.com</small>
     </footer>
     <script>
-      document.getElementById("yil").textContent = new Date().getFullYear();
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
