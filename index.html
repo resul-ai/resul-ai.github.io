@@ -72,7 +72,22 @@
       </nav>
     </main>
     <footer class="footer">
-      <small>© <span id="year"></span> · resulcaliskan.com</small>
+      <small>
+        © <span id="year"></span> · resulcaliskan.com
+        <svg
+          class="heart"
+          viewBox="0 0 24 24"
+          width="12"
+          height="12"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path
+            d="M12 21s-7.5-4.5-9.5-9C1 8 4 4.5 7.5 4.5c1.7 0 3.4.9 4.5 2.3 1.1-1.4 2.8-2.3 4.5-2.3C20 4.5 23 8 21.5 12c-2 4.5-9.5 9-9.5 9z"
+            fill="currentColor"
+          />
+        </svg>
+      </small>
     </footer>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
