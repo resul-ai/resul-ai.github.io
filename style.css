@@ -9,6 +9,8 @@
   --border: rgba(255, 255, 255, 0.08);
   --font-sans: "Source Sans 3", system-ui, sans-serif;
   --font-serif: "DM Serif Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", "Menlo",
+    "Consolas", monospace;
 }
 
 *,
@@ -88,8 +90,11 @@ h1 {
 .lead {
   margin: 0 0 1.5rem;
   color: var(--muted);
-  font-size: clamp(1.05rem, 2.5vw, 1.2rem);
-  max-width: 39rem;
+  font-family: var(--font-mono);
+  font-size: clamp(0.9rem, 2vw, 1.02rem);
+  line-height: 1.7;
+  letter-spacing: -0.005em;
+  max-width: 40rem;
 }
 
 .section {
